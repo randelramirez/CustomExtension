@@ -4,6 +4,8 @@ using Xamarin.Forms.Xaml;
 
 namespace Toolkit
 {
+    // This will allow us to set any property of type Color by specifying values of hue, saturation, and luminosity, 
+    // but in a manner much simpler than the use of the x:FactoryMethod tag
     public class HslColorExtension : IMarkupExtension
     {
         public HslColorExtension()
